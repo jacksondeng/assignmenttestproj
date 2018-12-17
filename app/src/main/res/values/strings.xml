@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">assignment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_dashboard">UserDashboard</string>
+
+    <string name="user_id">User Id</string>
+    <string name="user_name">Name</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_age">Age</string>
+    <string name="user_dob">DOB</string>
+    <string name="user_email">Email</string>
+    <string name="store">Store</string>
+    <string name="query">Query</string>
+    <string name="delete">Delete</string>
+    <string name="query_user">Query User</string>
+    <string name="view_stored_users">View stored users</string>
+    <string name="exit">Exit</string>
+    <string name="user_id_aka_seed">User ID (aka Seed)</string>
+    <string name="multiple_user">Multiple User</string>
+    <string name="title_activity_list_query_users">ListQueryUsersActivity</string>
+    <string name="title_activity_list_stored_users">ListStoredUsersActivity</string>
+    <string name="loading">Loading</string>
+    <string name="network_timeout">Network timeout.</string>
+    <string name="try_again">Do you want to try again?</string>
+    <string name="retry">Retry</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="sign_in">Sign in</string>
+    <string name="confirm_fingerprint_to_continue">Confirm fingerprint to continue</string>
+    <string name="use_pin">Use password</string>
+    <string name="cancel">Cancel</string>
+</resources>

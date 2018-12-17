@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_left_15dp"
+        android:id="@+id/username"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textSize="@dimen/username_size"
+        android:text="@string/user_name"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintVertical_bias="0.2"
+        android:paddingStart="@dimen/padding_left_15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:gravity="start"
+        android:textSize="@dimen/gender_size"
+        android:text="@string/user_gender"/>
+    
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/gender"
+        app:layout_constraintVertical_bias="0.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/padding_left_15dp"
+        android:id="@+id/email"
+        android:gravity="start"
+        android:textSize="@dimen/email_size"
+        android:text="@string/user_email"/>
+
+</android.support.constraint.ConstraintLayout>
