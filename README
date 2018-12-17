@@ -1,0 +1,22 @@
+# Project Title
+GemaltoApi library testapp
+
+## Getting Started
+
+Using aar file <br />
+i) get GemaltoApi object from application class.<br />
+ii) use it in activity/fragment.<br />
+
+### Prerequisites
+
+  targetCompatibility 1.8
+  sourceCompatibility 1.8
+
+## Authors
+
+**Jackson Deng**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
